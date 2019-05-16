@@ -1,0 +1,69 @@
+/** traffic-section **/
+
+.traffic-section{
+    position: relative;
+    padding-bottom: 80px;
+  }
+  
+  .traffic-text-wrapper {
+      background-color: #ffffff;
+      padding: 15px 10px;
+      text-align: center;
+  }
+  
+  .traffic-text-wrapper h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 2px;
+      background-color: #fdd200;
+      margin: auto;
+      margin-top: 6px;
+      margin-bottom: 11px;
+      text-decoration: none;
+  }
+  
+  .traffic-section .traffic-text-wrapper h2 {
+      padding-left: 10px;
+      padding-right: 10px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 18px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      color: #222222;
+      line-height: 24px;
+  }
+  
+  .traffic-icon {display: inline-block;
+      padding: 5px;
+      border-radius: 50%;
+      width: 93px;
+      height: 93px;
+      background-color: #ffffff;
+      margin-bottom: 15px;
+      border: 1px solid #26336e; transition: all 1s;}
+  
+  .traffic-section .traffic-text-wrapper h6 {
+      color: #777777;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 10px;
+      margin-bottom: 3px;
+  }
+  
+  .traffic-icon .fa-globe {color: #26336e;
+      font-size: 78px;
+      vertical-align: middle;
+      line-height: 81px; transition: all 1s;}
+  
+  .traffic-section .traffic-content{
+    position: relative;
+    padding: 25px 10px 25px 10px;
+    border: 1px solid #e7e7e7;
+  }
+  .traffic-content:hover .traffic-icon {transition: all 1s; background-color: #26336e;}
+  .traffic-content:hover .traffic-icon .fa-globe > path {color: #ffffff; transition: all 1s;}
+  .traffic-content a:hover {text-decoration: none;}
+
+  .traffic-section .slick-slide > div {margin-right: 10px;}

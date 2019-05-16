@@ -1,0 +1,352 @@
+.centered{
+    text-align:center;  
+  }
+  .sec-pad{
+    padding: 92px 0px 100px 0px;
+  }
+  
+  p{
+    position: relative;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen",  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+    color: #848484;
+    margin-bottom: 10px;
+    transition: all 500ms ease;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    position:relative;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #222;
+    margin-top: 0px;
+  }
+  h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+    position:relative;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen",  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #222;
+    margin-top: 0px;
+    transition: all 500ms ease;
+  }
+  
+  h1{
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  h2{
+    font-size: 34px;
+    line-height: 43px;
+    color: #222;
+  }
+  
+  h3{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  
+  h4{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  h5{
+    font-size: 18px;
+    line-height: 28px;
+  } 
+  
+  h4 a{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  h6 a{
+    font-size: 15px;
+    line-height: 22px;
+  }
+  
+  h5 a:hover,
+  h6 a:hover,
+  h4 a:hover,
+  h4 a:hover,
+  h6 a:hover{
+    color: #f6b129;
+    transition: all 500ms ease;
+  }
+  span{
+    position: relative;
+    display: block;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    line-height: 25px;
+    color: #f6b129;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+  .feature-section figure { margin: 0;}
+  
+  .btn-one {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    background: #f6b129;
+    padding: 15px 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    z-index: 1;
+  }
+  .btn-one:hover{
+    color: #fff;
+    transition: all 500ms ease;
+  }
+  .btn-one :before {
+    background-color: #f6b129;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(0.5, 1);
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    z-index: -1;
+  }
+  .btn-one :hover::before{
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  .style-one{
+    background: #f6b129; 
+    position: relative;
+  }
+  .style-one:before {
+    background-color: #222;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(0.5, 1);
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    z-index: -1;
+    border-radius: 5px;
+  }
+  .style-one:hover:before{
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);    
+  }
+  
+  .btn-two {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent;
+    padding: 11px 33px 10px 33px;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    z-index: 1;
+    border: 2px solid #fff;
+    border-radius: 5px;
+  }
+  .btn-two:hover{
+    color: #c9a76e;
+    transition: all 500ms ease;
+  }
+  
+  .link-btn{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .link-btn li{
+    display: inline-block;
+    margin: 0px 3px;
+  }
+  .link-btn li a{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color: #848484;
+    font-weight: 600;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    transition: all 500ms ease;
+  }
+  .link-btn li a:hover,
+  .link-btn li a.active{
+    background: #f6b129;
+    color: #fff;
+    border: 1px solid #f6b129;
+    transition: all 500ms ease;
+  }
+  
+  .section-title h2{
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .sec-title h2{
+    position: relative;
+    color: #fff;
+  }
+  .sec-title span{
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-size: 34px;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #f6b129;
+  }
+  .sec-title h2:before{
+    position: absolute;
+    content: '';
+    background: #f6b129;
+    width: 50px;
+    height: 5px;
+    left: 0px;
+    bottom: -15px;
+    border-radius: 5px;
+  }
+  .title-text{
+    position: relative;
+    margin-bottom: 68px;
+  }
+  .title-text p{
+    font-size: 15px;
+  }
+  .title-text:before{
+    position: absolute;
+    content: '';
+    background: #f6b129;
+    height: 5px;
+    width: 50px;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -25px;
+    bottom: -18px;
+  }
+  .img-box{
+    position: relative;
+    display: inline-block;
+    background: #26336e;
+  }
+
+  .feature-section{
+    position: relative;
+  }
+  .feature-section img{
+    width: 100%;
+  }
+  .feature-section .single-item{
+    position: relative;
+    transition: all 500ms ease;
+  }
+  .feature-section .single-item:hover{
+    transition: all 500ms ease;
+     box-shadow: 0px 0px 10px 5px rgba(231, 231, 231, 0.6);
+  }
+  .feature-section .single-item:hover .single-content2{
+    border: 1px solid #fff;
+    border-top: none;
+    transition: all 500ms ease;
+  }
+  .feature-section .single-item .single-content2{
+    position: relative;
+    padding: 48px 0px 22px 28px;
+    border: 1px solid #e7e7e7;
+    border-top: none;
+    transition: all 500ms ease;
+  }
+  .feature-section .single-item .single-content2 .icon-box{
+    position: absolute;
+    left: 30px;
+    top: -30px;
+    width: 60px;
+    height: 60px;
+    line-height: 72px;
+    background: #f6b129;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(231, 231, 231, 0.6);
+  }
+  .feature-section .single-item .single-content2 .icon-box i:before{
+    color: #fff;
+    font-size: 30px;
+    margin: 0px;
+  }
+  .feature-section .single-item h4{
+    margin-bottom: 8px;
+  }
+
+  .header-upper {
+    position: relative;
+    background: #26336e;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.header-upper .top-left {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.header-upper .top-right {
+  position: relative;
+  float: right;
+}
+
+.header-upper .top-left li {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Open Sans',sans-serif;
+  line-height: 54px;
+  color: #c8cfda;
+  font-weight: 600;
+  margin-right: 41px;
+}
+
+.header-upper .top-right .social-top {
+  position: relative;
+  line-height: 54px;
+  margin-bottom: 0;
+}
+
+.header-upper .top-right .social-top li {
+  position: relative;
+  display: inline-block;
+  margin: 0px 10px;
+}

@@ -1,0 +1,40 @@
+.service-section .slick-slider { z-index: 1; position: relative; }
+.service-section { position: relative; background: #f5f5f8; width: 100%; background-size: cover; padding: 100px 30px 100px 375px;}
+.service-section:before { position: absolute; content: ''; background: url(../images/truck_service.jpg) left top no-repeat; background-size: cover; left: 0px; top: 0px; width: 50%; height: 100%;}
+.service-section:after { position: absolute; content: ''; background: #26336e; width: 50%; height: 100%; left: 0px; top: 0px; opacity: .8;}
+.sec-title h2 {   position: relative; color: #fff;}
+.sec-title span {    position: relative; display: inline-block; font-style: normal; font-size: 34px; font-weight: 400;  margin-bottom: 10px; color: #f6b129;}
+.service-section .service-title { position: relative; margin-right: -15px; z-index: 1;}
+.service-section .single-item { position: relative; background: #fff; padding: 55px 10px 13px 40px; }
+.service-section .slick-slide > div {margin-right: 10px;}
+.service-section .slick-prev {left: -34%; z-index: 1; position: absolute; bottom: 0px; top: auto;}
+.service-section .slick-next { position: absolute; left: -31%; bottom: 0px; top: auto;}
+.service-section .three-column-carousel .single-item .icon-box{position: relative; margin-bottom: 28px; }
+.service-section .service-title p { color: #d4d6dc; position: relative; top: 27px;}
+.service-section .single-item .icon-box:before{ position: absolute; content: ''; background: #d0d0d0; width: 50px; height: 1px; left: 0px; bottom: -15px;}
+.service-section .single-item .icon-box { position: relative; margin-bottom: 28px;}
+
+
+@media only screen and (max-width: 1200px){
+.service-section {
+    padding: 100px 30px 100px 31px;
+}
+}
+
+@media only screen and (max-width: 991px){
+
+.service-section .service-title{
+		margin-bottom: 60px;
+	}
+	.service-section .three-column-carousel .owl-nav{
+		position: relative;
+		left: 0px;
+		bottom: 0px;
+		text-align: center;
+		top: 15px;
+    }
+    .service-section:after,
+	.service-section:before{
+		width: 100%;
+	}
+}
